@@ -114,38 +114,18 @@
         </LinearLayout>
 
 
-        <LinearLayout
-            android:id="@+id/orehaList"
+        <fragment
+            android:id="@+id/orehaFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/orehaToolbar"
             app:layout_constraintBottom_toBottomOf="parent"
+            >
 
-            android:orientation="vertical">
 
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </TableLayout>
-        </LinearLayout>
+        </fragment>
     </LinearLayout>
 
 
