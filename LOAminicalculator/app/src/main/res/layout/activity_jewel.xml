@@ -7,15 +7,65 @@
     android:background="@drawable/jewel"
     tools:context=".MainActivity">
 
-    <ImageButton
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/jewelToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/jewelGoHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="?attr/homeAsUpIndicator"
+            android:backgroundTint="#dadada"
+
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:contentDescription="메인 화면으로 돌아가기"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="보석"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/jewelReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:drawable/ic_menu_delete"
+            android:contentDescription="각인 테이블 추가"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:layout_editor_absoluteX="370dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/jewelHintButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        app:layout_constraintHorizontal_bias="0.97" />
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintVertical_bias="0.95"
+        android:contentDescription="보석 메뉴 사용 방법"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

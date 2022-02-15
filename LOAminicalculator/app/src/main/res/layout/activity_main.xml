@@ -47,17 +47,18 @@
         app:layout_constraintTop_toBottomOf="@+id/orehaButton"
         app:layout_constraintVertical_bias="0.5" />
 
-    <ImageButton
-        android:id="@+id/homeHintButton"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/gakinHintButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
         app:srcCompat="@android:drawable/ic_menu_help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        app:layout_constraintHorizontal_bias="0.97"
-        />
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintVertical_bias="0.95"
+        android:contentDescription="메인 메뉴 사용 방법"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

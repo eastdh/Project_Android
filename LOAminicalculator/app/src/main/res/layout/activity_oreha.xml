@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/oreha"
     tools:context=".MainActivity">
 
@@ -134,6 +133,7 @@
         android:id="@+id/orehaHintButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
         app:srcCompat="@android:drawable/ic_menu_help"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintVertical_bias="0.95"
-        android:contentDescription="사용 방법"/>
+        android:contentDescription="제작 메뉴 사용 방법"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
