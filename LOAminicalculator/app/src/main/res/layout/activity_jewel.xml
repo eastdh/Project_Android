@@ -67,5 +67,12 @@
         app:layout_constraintVertical_bias="0.95"
         android:contentDescription="보석 메뉴 사용 방법"/>
 
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="584dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp"></LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
