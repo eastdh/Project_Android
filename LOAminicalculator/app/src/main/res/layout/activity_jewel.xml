@@ -72,7 +72,34 @@
         android:layout_height="584dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="57dp"></LinearLayout>
+        tools:layout_editor_absoluteY="57dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
