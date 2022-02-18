@@ -117,5 +117,9 @@
 - Logcat 활용 학습      
 - [EditText에 숫자만 입력 받는 법](https://jw0652.tistory.com/113 "tistory") 학습   
 - 메인 화면의 모든 버튼 각 기능 페이지와 연결
+
+**2022-02-19**   
+- [Preference](https://yooniron.tistory.com/26)를 이용하여 사용자가 입력한 값을 앱 종료 후에도 저장하기
+- `보석`페이지 UI
     
 
