@@ -111,6 +111,11 @@
 **2022-02-16**
 
 
-**2022-02-18**   
+**2022-02-18**      
+    [Intent 사용법](https://cpcp127.tistory.com/3 "tistory") 학습   
+    [AndroidManifest.xml 대략적인 사용법](https://wonit.tistory.com/185 "tistory") 학습   
+    Logcat 활용 학습      
+    [EditText에 숫자만 입력 받는 법](https://jw0652.tistory.com/113 "tistory") 학습   
+    
     
 
