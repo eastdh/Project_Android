@@ -82,40 +82,40 @@
 > TIL이나 개발 일지 등 그 날의 진행 상황   
 
 **2022-02-07**    
-    프로젝트 주제 선정     
-    간략한 UI설정    
+- 프로젝트 주제 선정     
+- 간략한 UI설정    
 
 
 **2022-02-08**    
-    `README.md` 개요 작성   
-    [TableLayout 사용법](https://www.youtube.com/watch?v=DkxPfcIyoRg "YouTube")  학습    
+- `README.md` 개요 작성   
+- [TableLayout 사용법](https://www.youtube.com/watch?v=DkxPfcIyoRg "YouTube")  학습    
 
 
 **2022-02-09**   
-    각 [기능 설계](#기능-설계)의 세부적인 설계 작성
+- 각 [기능 설계](#기능-설계)의 세부적인 설계 작성
 
 **2022-02-11**   
-    UI 설계 진행   
-    FloatingActionButton 사용법 학습 - hint 버튼 등에 활용   
-    [상단바 (Toolbar) 사용법](https://game-happy-world.tistory.com/11 "tistory") 학습
+- UI 설계 진행   
+- FloatingActionButton 사용법 학습 - hint 버튼 등에 활용   
+- [상단바 (Toolbar) 사용법](https://game-happy-world.tistory.com/11 "tistory") 학습
 
 **2022-02-12**   
-    'Project_Android' repository 및 `README.md` 생성, 프로젝트 repository 이동   
-    앞으로 Android프로젝트들은 'Project_Android'에서 관리할 예정
+- 'Project_Android' repository 및 `README.md` 생성, 프로젝트 repository 이동   
+- 앞으로 Android프로젝트들은 'Project_Android'에서 관리할 예정
 
 **2022-02-14**   
     
 **2022-02-15**
-    UI 정리 및 통일
+- UI 정리 및 통일
 
 **2022-02-16**
 
 
 **2022-02-18**      
-    [Intent 사용법](https://cpcp127.tistory.com/3 "tistory") 학습   
-    [AndroidManifest.xml 대략적인 사용법](https://wonit.tistory.com/185 "tistory") 학습   
-    Logcat 활용 학습      
-    [EditText에 숫자만 입력 받는 법](https://jw0652.tistory.com/113 "tistory") 학습   
-    
+- [Intent 사용법](https://cpcp127.tistory.com/3 "tistory") 학습   
+- [AndroidManifest.xml 대략적인 사용법](https://wonit.tistory.com/185 "tistory") 학습   
+- Logcat 활용 학습      
+- [EditText에 숫자만 입력 받는 법](https://jw0652.tistory.com/113 "tistory") 학습   
+- 메인 화면의 모든 버튼 각 기능 페이지와 연결
     
 
