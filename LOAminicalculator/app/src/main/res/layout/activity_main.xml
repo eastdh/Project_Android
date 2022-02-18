@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.65" />
 
     <Button
-        android:id="@+id/settingButton"
+        android:id="@+id/gakinButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="보석"
-        app:layout_constraintBottom_toTopOf="@+id/settingButton"
+        app:layout_constraintBottom_toTopOf="@+id/gakinButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

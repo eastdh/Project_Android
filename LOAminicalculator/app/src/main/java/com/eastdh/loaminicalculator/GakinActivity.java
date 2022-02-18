@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class JewelActivity extends AppCompatActivity {
+public class GakinActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jewel);
+        setContentView(R.layout.activity_gakin);
 
-        ImageButton jewelGoHome = findViewById(R.id.jewelGoHome);
+        ImageButton gakinGoHome = findViewById(R.id.gakinGoHome);
 
-        jewelGoHome.setOnClickListener(new View.OnClickListener() {
+        gakinGoHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();

@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="제작"
+            android:text="오레하"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/white"/>
@@ -113,18 +113,6 @@
         </LinearLayout>
 
 
-        <fragment
-            android:id="@+id/orehaFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/orehaToolbar"
-            app:layout_constraintBottom_toBottomOf="parent"
-            >
-
-
-        </fragment>
     </LinearLayout>
 
 
