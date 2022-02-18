@@ -119,7 +119,8 @@
 - 메인 화면의 모든 버튼 각 기능 페이지와 연결
 
 **2022-02-19**   
-- [Preference](https://yooniron.tistory.com/26)를 이용하여 사용자가 입력한 값을 앱 종료 후에도 저장하기
+- [Preference](https://yooniron.tistory.com/26)를 이용하여 사용자가 입력한 값을 앱 종료 후에도 저장하는 방법 학습
 - `보석`페이지 UI
+- [화면 전환](https://greedy0110.tistory.com/52) 학습
     
 
