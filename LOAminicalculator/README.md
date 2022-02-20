@@ -124,3 +124,6 @@
 - [화면 전환](https://greedy0110.tistory.com/52) 학습
     
 
+**2022-02-20**
+- [탭 레이아웃 사용법](https://sseong66.tistory.com/42) 학습
+- [툴팁 적용법](https://youtu.be/mwt7VdmxVbk) 학습
